@@ -1,0 +1,41 @@
+body {
+    padding-bottom: 100px;
+}
+li.page-item.active {
+    background: #00D1B2;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 15%;
+}
+.button-horo {
+    width: 50%;
+    margin: 1%;
+}
+div.modal-buttons {
+    text-align: center;
+}
+.listbutton {
+    margin-left: 15px;
+}
+.searchlist {
+    width: 100%;
+}
+.searchblock {
+    background: #F5F5F5;
+}
+.long-text {
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+    width: 350px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .long-text {
+        width: 100px;
+    }
+}
+.search-button {
+    margin-left: 10px;
+}
